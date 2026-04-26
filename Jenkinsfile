@@ -16,7 +16,7 @@ pipeline {
 
         stage('Clone GitHub Repo') {
             steps {
-                git branch: 'main', url: 'https://github.com/fullstacktraning/invent_artificial.git'
+                git branch: 'main', url: 'https://github.com/PrasoonaOne/backend-appln.git'
             }
         }
 
